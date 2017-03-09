@@ -48,7 +48,7 @@ body {
   }
   .sign__up {
     border: 2px solid #FFFFFF;
-    border-radius: 5px;
+    border-radius: 10px;
     &:hover {
       //background: #fa693c;
       border: 2px solid #fa693c;
@@ -57,7 +57,7 @@ body {
 }
 .sign__upClick:hover {
   background: #fa693c;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 //.sign__upClick > .sign__up:hover {
 //  background: #fa693c;
@@ -98,9 +98,6 @@ body {
 .img__container {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
-}
-.text_container {
-  //padding-top: 60px;
 }
 .head__info {
   margin: 115px 0 100px 0;
@@ -144,12 +141,22 @@ body {
     background: darken(#fa693c, 20%);
     box-shadow: 1px 3px 1px lighten(#80361f, 10%);
   }
+  &:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 }
 .getStartBtn {
   .getStartBtn();
   &:active {
     background: darken(#2892d7, 20%);
     box-shadow: 1px 3px 1px lighten(#124160, 10%);
+  }
+  &:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 .btnHeader {
